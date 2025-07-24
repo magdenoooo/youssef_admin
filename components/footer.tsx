@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Youtube, Instagram, Twitter, Play, Mail, Phone } from "lucide-react"
+import { Heart, Coffee, Youtube, Instagram, Twitter, Play, Mail, Phone } from "lucide-react"
 
 // Custom TikTok icon component
 const TikTokIcon = ({ className }: { className?: string }) => (
@@ -35,7 +35,7 @@ export function Footer() {
               <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-purple-600 rounded-lg flex items-center justify-center">
                 <Play className="h-5 w-5 text-white" />
               </div>
-              <span className="text-3xl font-black gradient-text">YOUSSEF SMAIL</span>
+              <span className="text-3xl font-black gradient-text">Youssef Ismail</span>
             </div>
             <p className="text-gray-400 text-lg max-w-md leading-relaxed">
               Professional video editor with 2+ years of experience crafting cinematic stories that captivate audiences
@@ -175,23 +175,30 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <div className="text-gray-400">
-              <p>&copy; 2024 Youssef Smail. All rights reserved.</p>
-            </div>
-            <div className="flex items-center gap-6 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-orange-400" />
-                <span>yousifalmuhamad@gmail.com</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-orange-400" />
-                <span>+20 15 01140418</span>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div className="border-t border-gray-800 mt-12 pt-8">
+  <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+    <div className="text-gray-400 text-sm flex items-center gap-2">
+      <span>Crafted with</span>
+      <Heart className="h-4 w-4 text-pink-500 animate-pulse" />
+      <span>&</span>
+      <Coffee className="h-4 w-4 text-amber-500" />
+      <span>by</span>
+      <span className="text-white font-semibold">Magdy Atef Zahran</span>
+      <span>• 2024</span>
+    </div>
+    <div className="flex items-center gap-6 text-sm text-gray-400">
+      <div className="flex items-center gap-2">
+        <Mail className="h-4 w-4 text-orange-400" />
+        <span>magdenoooo@gmail.com</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <Phone className="h-4 w-4 text-orange-400" />
+        <span>+20 11 14602770</span>
+      </div>
+    </div>
+  </div>
+</div>
+
       </div>
     </footer>
   )

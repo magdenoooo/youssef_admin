@@ -87,8 +87,7 @@ export function Hero() {
               </h1>
 
               <p className="text-sm sm:text-base lg:text-xl text-gray-300 max-w-lg leading-relaxed mx-auto lg:mx-0 px-4 lg:px-0">
-                Professional video editor with 2+ years of experience transforming raw footage into compelling
-                narratives that captivate audiences and drive results.
+A professional video editor with over 2 years of experience turning raw footage into powerful, emotionally-driven stories that engage audiences and deliver impact.
               </p>
             </div>
 
@@ -130,7 +129,7 @@ export function Hero() {
                 </div>
               </div>
               <div className="text-center">
-                <div className="text-lg sm:text-2xl lg:text-3xl font-bold gradient-text">15+</div>
+                <div className="text-lg sm:text-2xl lg:text-3xl font-bold gradient-text">3+</div>
                 <div className="text-xs sm:text-sm text-gray-400 uppercase tracking-wider leading-tight">
                   Awards
                   <br className="sm:hidden" />

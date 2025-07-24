@@ -9,14 +9,14 @@ const skills = [
   { name: "Adobe Premiere Pro", level: 90, icon: Film },
   { name: "After Effects", level: 85, icon: Zap },
   { name: "DaVinci Resolve", level: 80, icon: Palette },
-  { name: "Final Cut Pro", level: 75, icon: Camera },
-  { name: "Pro Tools", level: 70, icon: Headphones },
-  { name: "Cinema 4D", level: 65, icon: Film },
+  { name: "Lumetri Color", level: 75, icon: Camera },
+  { name: "Adobe Media Encoder", level: 70, icon: Headphones },
+  { name: "Essential Sound Panel", level: 65, icon: Film },
 ]
 
 const achievements = [
-  { icon: Award, number: "15+", label: "Industry Awards" },
-  { icon: Users, number: "50+", label: "Happy Clients" },
+  { icon: Award, number: "3+", label: "Industry Awards" },
+  { icon: Users, number: "90+", label: "Happy Clients" },
   { icon: Clock, number: "2K+", label: "Hours Edited" },
   { icon: Film, number: "100+", label: "Projects Completed" },
 ]
@@ -35,17 +35,13 @@ export function About() {
               </h2>
               <div className="space-y-4 lg:space-y-6 text-base lg:text-lg text-gray-300 leading-relaxed">
                 <p>
-                  I'm Youssef Smail, a passionate video editor with over 2 years of experience crafting visual stories
-                  that move, inspire, and captivate audiences worldwide.
+I'm Youssef Ismail — a passionate video editor with over 2 years of hands-on experience turning raw footage into stories that move, inspire, and connect.
                 </p>
                 <p className="hidden sm:block">
-                  My journey began with a love for storytelling, and my real education came from countless hours in the
-                  editing suite, perfecting the art of visual narrative. I believe every frame matters, every cut has
-                  purpose, and every project deserves nothing less than cinematic excellence.
+My journey started with a deep love for storytelling. I didn’t learn this craft in a classroom — I learned it through long nights in the editing room, experimenting, refining, and discovering how every frame can carry emotion.
                 </p>
                 <p className="hidden lg:block">
-                  From high-energy commercials to intimate documentaries, I bring technical expertise and creative
-                  vision to transform raw footage into compelling narratives that resonate with audiences.
+From dynamic ads to personal documentaries, I blend technical precision with creative instinct to shape visuals that leave a lasting impact. For me, it’s not just about cutting clips — it’s about crafting meaning, one frame at a time.
                 </p>
               </div>
             </div>

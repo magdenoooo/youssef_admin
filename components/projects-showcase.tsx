@@ -69,8 +69,8 @@ export function ProjectsShowcase() {
             <span className="text-white">FEATURED</span> <span className="gradient-text">WORK</span>
           </h2>
           <p className="text-lg lg:text-xl text-gray-300 max-w-2xl mx-auto">
-            Watch my latest featured projects directly embedded from YouTube - each video showcases different aspects of
-            my editing expertise
+Explore my latest featured projects — showcasing the depth and versatility of my video editing style.
+
           </p>
         </div>
 

@@ -37,7 +37,7 @@ export function Header() {
             <div className="w-6 lg:w-8 h-6 lg:h-8 bg-gradient-to-br from-orange-500 to-purple-600 rounded-lg flex items-center justify-center">
               <Play className="h-3 lg:h-4 w-3 lg:w-4 text-white" />
             </div>
-            <span className="text-lg lg:text-2xl font-black gradient-text">YOUSSEF SMAIL</span>
+            <span className="text-lg lg:text-2xl font-black gradient-text">Youssef Ismail</span>
           </Link>
 
           {/* Desktop Navigation */}
